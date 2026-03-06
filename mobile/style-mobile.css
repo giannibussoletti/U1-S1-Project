@@ -1,17 +1,24 @@
-/* body h1 h2 h3 p q a hr header main button */
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* GLOBALI*/
+
+html {
+  background-color: #393d41;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
   color: #393d41;
   max-width: 450px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 h1,
 h2,
-h3m #presentation-wrap button {
+h3,
+#presentation-wrap button {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -34,8 +41,10 @@ p,
 }
 
 p {
+  margin: 0.7em;
   line-height: 1.65;
 }
+/* HEADER */
 
 header {
   text-align: center;
@@ -70,3 +79,67 @@ header img {
   border: none;
   border-radius: 0.5em;
 }
+
+/* SEZIONE TUTTI TI CERCERANNO */
+#pro-section {
+  padding: 2em;
+}
+
+#center-img-pro {
+  padding: 1em;
+  margin: 1em 0;
+}
+
+#center-img-pro img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+/* SEZIONE EPICODE GARANTISCE */
+
+.garante-sec {
+  background-color: #e22d0e;
+  color: white;
+  padding: 1em;
+}
+
+.garante-sec p {
+  font-style: italic;
+}
+
+.garante-sec span {
+  display: block;
+  font-style: normal;
+  font-size: larger;
+}
+
+#ceo-epicode {
+  font-size: 0.8em;
+}
+
+/* SEZIONE COME FUNZIONA */
+
+#section-wdyn {
+  padding: 3em 2em;
+}
+
+.wdyn-wrap {
+  border: 1.5px solid #dee1e3;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2em 0;
+  box-sizing: border-box;
+}
+
+.wdyn-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 1em;
+}
+
+.wdyn-text {
+  margin-bottom: 2em;
+}
+
+/* FOOTER */
