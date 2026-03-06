@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+#presentation-wrap button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h1,
+h3 {
+  color: #25a2c3;
+}
+
+h3 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+#presentation-wrap {
+  text-align: center;
+}
+
+.garante-sec,
+#presentation-wrap button,
+footer,
+footer a {
+  color: white;
+}
+
+p {
+  margin: 0.7em;
+  line-height: 1.65;
+}
+
+#presentation-wrap button {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  margin: 1em 0;
+  background-color: #f04c2f;
+  border: none;
+  border-radius: 0.5em;
+}
+
+header {
+  padding: 2em;
+  background-color: black;
+  margin: 0;
+}
+#presentation-wrap {
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#center-img-pro img {
+  border-radius: 100%;
+}
+
+.garante-sec {
+  background-color: #e22d0e;
+}
+
+.garante-sec p {
+  font-style: italic;
+}
+
+.garante-sec span {
+  display: block;
+  font-style: normal;
+  font-size: larger;
+}
+
+#ceo-epicode {
+  font-size: 0.8em;
+}

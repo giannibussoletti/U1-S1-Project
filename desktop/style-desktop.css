@@ -1,0 +1,29 @@
+body {
+  max-width: 1200px;
+}
+
+#presentation-wrap {
+  padding: 10em;
+}
+
+#pro-section {
+  width: 100%;
+}
+
+#center-img-pro {
+  width: 30%;
+  float: left;
+}
+
+#text-pro-section {
+  width: 30%;
+}
+
+#text-pro-section h3,
+#text-pro-section p {
+  text-align: start;
+}
+
+#text-pro-section p {
+  margin-left: 0;
+}
