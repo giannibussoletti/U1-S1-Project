@@ -1,1 +1,72 @@
-body h1 h2 h3 p q a hr header main button
+/* body h1 h2 h3 p q a hr header main button */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  max-width: 450px;
+}
+
+h1,
+h2,
+h3m #presentation-wrap button {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h3 {
+  color: #25a2c3;
+}
+
+h3 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+#presentation-wrap {
+  text-align: center;
+}
+
+p {
+  line-height: 1.65;
+}
+
+header {
+  text-align: center;
+  padding: 2em;
+  background-color: black;
+  margin: 0;
+}
+
+header img {
+  max-width: 200px;
+}
+
+#presentation-wrap {
+  padding: 1em;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#presentation-wrap h1 {
+  margin: 0.5em;
+}
+
+#presentation-wrap button {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  margin: 1em 0;
+  background-color: #f04c2f;
+  border: none;
+  border-radius: 0.5em;
+}
