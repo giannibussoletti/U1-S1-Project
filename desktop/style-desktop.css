@@ -8,15 +8,18 @@ body {
 
 #pro-section {
   width: 100%;
+  padding: 5em;
+  box-sizing: border-box;
 }
 
 #center-img-pro {
-  width: 30%;
+  width: 40%;
   float: left;
+  margin: 2em;
 }
 
 #text-pro-section {
-  width: 30%;
+  margin: 1em;
 }
 
 #text-pro-section h3,
@@ -26,4 +29,41 @@ body {
 
 #text-pro-section p {
   margin-left: 0;
+}
+
+.garante-sec {
+  padding: 5em;
+}
+
+#section-wdyn {
+  margin: auto;
+  margin: 6em 0;
+}
+
+.wdyn-wrap {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+  margin-left: 6%;
+}
+
+/*FOOTER*/
+footer {
+  max-width: 100%;
+  padding: 1em;
+}
+
+#info-footer {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#info-footer p,
+#info-footer h2 {
+  width: 100%;
+  text-align: start;
+}
+
+#info-footer p {
+  margin: 0;
 }
