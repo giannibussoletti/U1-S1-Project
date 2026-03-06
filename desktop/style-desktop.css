@@ -1,5 +1,8 @@
-body {
+#pro-section,
+#section-wdyn,
+#logo-limit {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 #presentation-wrap {
@@ -37,7 +40,7 @@ body {
 
 #section-wdyn {
   margin: auto;
-  margin: 6em 0;
+  margin: 6em auto;
 }
 
 .wdyn-wrap {
