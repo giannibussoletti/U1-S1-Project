@@ -20,6 +20,7 @@ h2,
 h3,
 #presentation-wrap button {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 h1,
@@ -40,6 +41,13 @@ p,
   text-align: center;
 }
 
+.garante-sec,
+#presentation-wrap button,
+footer,
+footer a {
+  color: white;
+}
+
 p {
   margin: 0.7em;
   line-height: 1.65;
@@ -54,7 +62,7 @@ header {
 }
 
 header img {
-  max-width: 200px;
+  max-width: 150px;
 }
 
 #presentation-wrap {
@@ -70,7 +78,6 @@ header img {
 }
 
 #presentation-wrap button {
-  color: white;
   font-weight: bold;
   text-transform: uppercase;
   padding: 1em 2em;
@@ -99,7 +106,6 @@ header img {
 
 .garante-sec {
   background-color: #e22d0e;
-  color: white;
   padding: 1em;
 }
 
@@ -143,3 +149,27 @@ header img {
 }
 
 /* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+  padding: 1em 2em 3em;
+}
+
+footer p {
+  margin: 0;
+}
+
+hr {
+  margin: 2em 5em;
+  border: 1px solid #dee1e3;
+}
+
+/* FOOTER ICON*/
+.fa-phone,
+.fa-envelope,
+.fa-location-dot {
+  background: rgb(255, 255, 255);
+  color: #25a2c3;
+  padding: 3px 1px;
+  border-radius: 3px;
+}
